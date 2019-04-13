@@ -31,6 +31,7 @@
 	<files>
 		<filename plugin="present">present.php</filename>
 		<filename>index.html</filename>
+		<filename>README.md</filename>
 		<folder>helpers</folder>
 		<folder>sql</folder>
 		<folder>other</folder>
