@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="plugin" version="3.0" group="joomshopingcustom" method="upgrade">
+	<name>Product present</name>
+	<author>Aleks MAjlo</author>
+	<creationDate>December 2018</creationDate>
+	<copyright>Copyright (c) 2018 Present. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>aleksandrmajlo@gmail.com</authorEmail>
+	<authorUrl>aleksandrmajlo</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[
+		Подарки для продуктов
+	]]>
+	</description>
+
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install.sql</file>
+		</sql>
+	</install>
+
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/uninstall.sql</file>
+		</sql>
+	</uninstall>
+
+
+	<files>
+		<filename plugin="present">present.php</filename>
+		<filename>index.html</filename>
+		<folder>helpers</folder>
+		<folder>sql</folder>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
