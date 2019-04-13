@@ -15,8 +15,8 @@
           include(dirname(__FILE__)."/present.php");
       }
         
-  present.php с папки other  - положить рядом с  default.php
-  там находится вкладка подарок для продукта  
+  present.php с папки other  - положить рядом с  default.php.
+  В этом файле внешний вид вкладки- подарок для продукта.  
     
     
 
