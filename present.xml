@@ -33,6 +33,7 @@
 		<filename>index.html</filename>
 		<folder>helpers</folder>
 		<folder>sql</folder>
+		<folder>other</folder>
 	</files>
 
 	<config>
